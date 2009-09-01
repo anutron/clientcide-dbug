@@ -5,6 +5,11 @@ dbug is a wrapper for the firebug console plugin for firefox. The syntax for log
 
 ![Screenshot](http://www.clientcide.com/art/forge/dbug.png)
 
+Requirements
+------------
+
+* none
+
 How to use
 ----------
 
