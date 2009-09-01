@@ -3,7 +3,7 @@ dbug - a console wrapper
 
 dbug is a wrapper for the firebug console plugin for firefox. The syntax for logging is the same as documented at [http://getfirebug.com](http://getfirebug.com).
 
-![Screenshot](http://github.com/anutron/clientcide-dbug/blob/master/screenshot.png)
+![Screenshot](http://github.com/anutron/clientcide-dbug/raw/master/screenshot.png)
 
 Requirements
 ------------
