@@ -2,15 +2,10 @@
 ---
 
 script: dbug.js
-
+authors: Aaron Newton
 description: A wrapper for Firebug console.* statements.
-
 license: MIT-style license.
-
-authors:
-- Aaron Newton
-
-provides: 
+provides:
  - dbug
 
 ...
