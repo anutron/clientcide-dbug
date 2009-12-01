@@ -5,8 +5,6 @@ script: dbug.js
 authors: Aaron Newton
 description: A wrapper for Firebug console.* statements.
 license: MIT-style license.
-requres:
- core/1.2.4: [Core]
 provides:
  - dbug
 
