@@ -1,10 +1,7 @@
 name:           dbug
 author:         anutron
-#current:       0.1
+#current:        1.0
 category:       Utilities
 tags:           [console, debug]
 docs:           http://clientcide.com/docs/Core/dbug
 demo:           http://www.clientcide.com/wiki/cnet-libraries/01-core/00-dbug
-# requires:
-#   - { package: 'some-plugin', version: '0.1' }
-#   - { package: 'http://external-plugin.com' }	

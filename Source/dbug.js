@@ -1,12 +1,22 @@
 /*
-Script: dbug.js
-	A wrapper for Firebug console.* statements.
+---
 
-License:
-	http://www.clientcide.com/wiki/cnet-libraries#license
+script: dbug.js
+
+description: A wrapper for Firebug console.* statements.
+
+license: MIT-style license.
+
+authors:
+- Aaron Newton
+
+provides: 
+ - dbug
+
+...
 */
 var dbug = {
-	logged: [],	
+	logged: [],
 	timers: {},
 	firebug: false, 
 	enabled: false, 
@@ -33,7 +43,11 @@ var dbug = {
 			try {
 				dbug.enabled = true;
 				dbug.log = function(){
-						(con.debug || con.log).apply(con, arguments);
+						try {
+							(con.debug || con.log).apply(con, arguments);
+						} catch(e) {
+							console.log(Array.slice(arguments));
+						}
 				};
 				dbug.time = function(){
 					con.time.apply(con, arguments);
