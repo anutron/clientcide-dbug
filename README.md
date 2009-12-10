@@ -99,7 +99,7 @@ See [http://www.getfirebug.com/console.html][] for all the methods that Firebug 
 	//etc
 
 Script: dbugScripts.js {#dbugScripts-js}
-========================================
+----------------------------------------
 
 
 This stand-alone script allows you to debug against a live environment by discarding the live version of a library (typically compressed with no line breaks or comments) in exchange for a non-live one (typically uncompressed). This provides two primary benefits:
